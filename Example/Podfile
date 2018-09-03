@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZDNetworkKit_Example' do
+  pod 'ZDNetworkKit', :path => '../'
+
+  target 'ZDNetworkKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
