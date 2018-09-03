@@ -1,0 +1,6 @@
+framework module ZDNetworkKit {
+  umbrella header "ZDNetworkKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

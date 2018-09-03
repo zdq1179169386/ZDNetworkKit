@@ -1,0 +1,27 @@
+{
+  "name": "ZDNetworkKit",
+  "version": "0.1.0",
+  "summary": "A short description of ZDNetworkKit.",
+  "description": "A long description of ZDNetworkKit,A short description of ZDNetworkKit",
+  "homepage": "https://github.com/zdq1179169386/ZDNetworkKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zdq1179169386": "2259434901@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zdq1179169386/ZDNetworkKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZDNetworkKit/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}

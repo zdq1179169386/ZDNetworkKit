@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+                     A long description of ZDNetworkKit,A short description of ZDNetworkKit                  
+                     DESC
 
   s.homepage         = 'https://github.com/zdq1179169386/ZDNetworkKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zdq1179169386' => 'deqiang.zhu@zhihan.ltd' }
+  s.author           = { 'zdq1179169386' => '2259434901@qq.com' }
   s.source           = { :git => 'https://github.com/zdq1179169386/ZDNetworkKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking'
 end

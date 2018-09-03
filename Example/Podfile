@@ -1,6 +1,9 @@
-use_frameworks!
+platform :ios, '8.0'
+
+#use_frameworks!
 
 target 'ZDNetworkKit_Example' do
+  pod 'AFNetworking', :inhibit_warnings => true
   pod 'ZDNetworkKit', :path => '../'
 
   target 'ZDNetworkKit_Tests' do
